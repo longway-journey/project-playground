@@ -1,16 +1,10 @@
-import turtle as tt
-
+from tkinter import *
+root = Tk()
 
 def main():
-    sc = tt.Screen()
-    sc.setup(width=800,height=500)
-    sc.bgcolor("pink")
-
-
-
-
-    return 0
+    root.geometry("900x600")
+    root.title("ultimate program(place holder)")
+    root.mainloop()
 
 
 main()
-tt.done()
